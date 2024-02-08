@@ -1,18 +1,26 @@
 .contact-box {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .contact-form {
     display: flex;
     flex-direction: column;
+    width: 70%;
 }
 
 label {
     margin-left: 3rem;
+    align-self: center;
+}
+
+.labelTA {
+    align-self: flex-start;
 }
 
 input {
+    align-self: center;
     padding: 0.4rem;
     margin-bottom: 2rem;
     margin-left: 2rem;
@@ -24,10 +32,11 @@ textarea {
     height: 10rem;
     margin-bottom: 2rem;
     margin-left: 2rem;
-    width: 40%; 
+    width: 100%; 
 }
 
 .submit {
+    align-self:center; 
     padding: 0.4rem;
     margin-bottom: 2rem;
     margin-left: 2rem;

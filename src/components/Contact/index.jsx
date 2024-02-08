@@ -53,7 +53,7 @@ export default function Contact() {
                 <input type="text" id='email' name='email' value={formData.email} onChange={handleChange} />
                 {errors.email && <span className='form-error'>{errors.email}</span>}
 
-                <label htmlFor="message">Message:</label>
+                <label className="labelTA" htmlFor="message">Message:</label>
                 <textarea id='message' name='message' value={formData.message} onChange={handleChange} />
                 {errors.message && <span className='form-error'>{errors.message}</span>}
 
