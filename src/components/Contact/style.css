@@ -13,6 +13,7 @@
 
 label {
     align-self: center;
+    margin-top:6px;
 }
 
 .labelTA {
@@ -37,6 +38,12 @@ textarea {
     align-self:center; 
     padding: 0.4rem;
     margin-bottom: 2rem;
-    margin-left: 2rem;
     width: 40%; 
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    color: red;
+    padding: 5px;
 }
