@@ -4,19 +4,29 @@ header {
 }
 
 .headerContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 40px;
+    padding: 10px 0; 
     color: black;
     background-color: rgb(166, 244, 218);
-    width: 100% ;
-    box-sizing: border-box;
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    max-width: auto; 
+    margin: 0 auto; 
+    padding: 0 40px; 
+}
+
+h1 {
+    align-self: flex-start;
+}
+
+.mainNav {
+    align-self: flex-end;
 }
 
 .mainNav button {
-    background-color: white; 
+    background-color: rgb(216, 255, 242); 
     border: 2px solid #ccc; 
     border-radius: 8px; 
     padding: 10px 20px; 
@@ -26,7 +36,7 @@ header {
 }
 
 .mainNav button:hover {
-    background-color: #e0e0e0; 
+    background-color: rgb(58, 159, 126); 
 }
 
 .mainNav button:active {

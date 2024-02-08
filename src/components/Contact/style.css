@@ -1,4 +1,35 @@
-* {
-    color: black;
-    background-color: white
+.contact-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-left: 3rem;
+}
+
+input {
+    padding: 0.4rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    width: 40%; 
+}
+
+textarea {
+    padding: 0.4rem;
+    height: 10rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    width: 40%; 
+}
+
+.submit {
+    padding: 0.4rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    width: 40%; 
 }
