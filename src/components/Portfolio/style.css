@@ -1,0 +1,12 @@
+.projectsDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.projectsDiv div {
+    display: flex;
+    align-items: center;
+}
