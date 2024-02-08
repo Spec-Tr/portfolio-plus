@@ -1,0 +1,11 @@
+.resumeBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resumeContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
