@@ -17,8 +17,7 @@ function App() {
       {activeSection === 'portfolio' && <Portfolio />}
       {activeSection === 'contact' && <Contact />}
       {activeSection === 'resume' && <Resume />}
-      <h1>Hello</h1>
-      <Footer />
+      <Footer/>
     </>
   );
 }
