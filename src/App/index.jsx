@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <Header setActiveSection={setActiveSection} />
+    <Header activeSection={activeSection} setActiveSection={setActiveSection} />
       {activeSection === 'about' && <About />}
       {activeSection === 'portfolio' && <Portfolio />}
       {activeSection === 'contact' && <Contact />}

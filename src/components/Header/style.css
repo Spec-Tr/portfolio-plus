@@ -1,7 +1,6 @@
-* {
-    color: black;
-    background-color: aquamarine;
-
+header {
+    margin: 0;
+    padding: 0;
 }
 
 .headerContainer {
@@ -9,10 +8,32 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 40px;
-    padding: 10px;
+    padding: 10px 40px;
+    color: black;
+    background-color: rgb(166, 244, 218);
+    width: 100% ;
+    box-sizing: border-box;
 }
 
 .mainNav button {
+    background-color: white; 
+    border: 2px solid #ccc; 
+    border-radius: 8px; 
+    padding: 10px 20px; 
+    margin: 0 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.1s; 
+}
 
+.mainNav button:hover {
+    background-color: #e0e0e0; 
+}
+
+.mainNav button:active {
+    transform: translateY(2px); 
+}
+
+.mainNav button.active {
+    background-color: rgb(59, 205, 156); 
+    color: white; 
 }
